@@ -1,0 +1,44 @@
+.to-do-list-container{
+    display: flex;
+    justify-content: center;
+}
+
+.to-do-items{
+    background-color: orange;
+    width: 300px;
+    padding: 10px;   
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.completed-item{
+    background-color: rgb(116, 115, 115);
+    text-decoration: line-through;
+    width: 300px;
+    padding: 10px;   
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.item-position-style{
+    /* word-wrap: break-word; */
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    
+}
+
+.item-buttons-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-buttons{
+    background-color: rgb(103, 196, 143);
+    border-radius: 10px;
+    padding:5px;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+form{
+    text-align: center;
+}
+
+.logo a{
+    color:rgb(126, 124, 124);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navbar-nav{
+    padding: 12px;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.nav-item a{
+    font-family: monospace;
+    text-decoration: none;
+    color: rgb(199, 109, 109);
+}

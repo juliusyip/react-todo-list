@@ -1,0 +1,26 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.page-header{
+    text-align: center;
+    padding: 15px;
+    color: rgb(223, 145, 158);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.add-todo-item-btn{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.add-todo-btn-container{
+    text-align: end;
+}
+
+footer{
+    text-align: center;
+}
