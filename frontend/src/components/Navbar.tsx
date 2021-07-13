@@ -5,24 +5,24 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
+    // NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText
+    // NavLink,
+    // UncontrolledDropdown,
+    // DropdownToggle,
+    // DropdownMenu,
+    // DropdownItem,
+    // NavbarText
   } from 'reactstrap';
 
   
 
 export default function NavbarCom() {
-    const style = {
-        display: "flex",
-        "justify-content": "space-around"
-      };
+    // const style = {
+    //     display: "flex",
+    //     "justify-content": "space-around"
+    //   };
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);

@@ -4,7 +4,7 @@ import ToDoItem from '../components/to-do-item'
 import SearchBar from '../components/SearchBar';
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'reactstrap';
 import { useState } from 'react';
-import Draggable, {DraggableCore} from 'react-draggable';
+import Draggable from 'react-draggable';
 
 export default function Home() {
     //functions & variables
@@ -89,7 +89,7 @@ export default function Home() {
                     // complete={post.complete}
                     // changeComplete={()=>{setComplete(!complete)}}
                     changeComplete={()=>{setToDo(toDo.map(aPost =>{
-                        if(aPost != post ){
+                        if(aPost !== post ){
                             return aPost
                         }else{
                             return{
